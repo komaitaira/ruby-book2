@@ -20,3 +20,20 @@ message =
   end
 
   p message
+
+country = 'italy'
+
+# case文を使う場合の構文、戻り値を変数に入れることができる
+greet = 
+  case country
+  when 'japan'
+    'こんにちは'
+  when 'us'
+    'hello'
+  when 'italy'
+    'ciao'
+  else
+    '???'
+  end
+
+  p greet
